@@ -15,9 +15,10 @@
   "scripts": {
     "postinstall": "node node_modules/@techlabi/medusa-marketplace-plugin/.medusa/server/src/patch-admin.js",
     "build": "medusa build && node src/scripts/postBuild.js",
+    "migrate": "medusa db:migrate",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "ib": "init-backend",
-    "start": "init-backend && cd .medusa/server && medusa start --verbose",
+    "start": "init-backend && medusa db:migrate && cd .medusa/server && medusa start --verbose",
     "dev": "medusa develop",
     "email:dev": "email dev --dir=./src/modules/email-notifications/templates --port=3002"
   },
