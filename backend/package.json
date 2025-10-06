@@ -38,7 +38,7 @@
     "@mikro-orm/postgresql": "6.4.3",
     "@react-email/components": "^0.0.26",
     "@rokmohar/medusa-plugin-meilisearch": "1.2.3",
-    "@techlabi/medusa-marketplace-plugin": "^0.36.0",
+    "@techlabi/medusa-marketplace-plugin": "^0.37.0",
     "awilix": "^8.0.1",
     "medusajs-launch-utils": "^0.0.17",
     "minio": "^8.0.3",

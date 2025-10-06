@@ -54,8 +54,8 @@ importers:
         specifier: 1.2.3
         version: 1.2.3(47y5eopm3b62h6fzttpx3rcpke)
       '@techlabi/medusa-marketplace-plugin':
-        specifier: ^0.36.0
-        version: 0.36.0(je5rpqagmcfpqidx66audjx7mu)
+        specifier: ^0.37.0
+        version: 0.37.0(je5rpqagmcfpqidx66audjx7mu)
       awilix:
         specifier: ^8.0.1
         version: 8.0.1
@@ -3990,8 +3990,8 @@ packages:
   '@tanstack/virtual-core@3.13.12':
     resolution: {integrity: sha512-1YBOJfRHV4sXUmWsFSf5rQor4Ss82G8dQWLRbnk3GA4jeP8hQt1hxXh0tmflpC0dz3VgEv/1+qwPyLeWkQuPFA==}
 
-  '@techlabi/medusa-marketplace-plugin@0.36.0':
-    resolution: {integrity: sha512-c0KonURJcEgoMMRVilkFTTfD1Mj6ROTJlVoX/imhM0jYjOw6YLI56gx38RDVreUGgg+YvaCkMcxtXOH5yKY1NA==}
+  '@techlabi/medusa-marketplace-plugin@0.37.0':
+    resolution: {integrity: sha512-9PgqOMYYmSf8rPMT4aCrzSi0uR242iz3bKdglP6Y3veJw+CJdNIBPoyF5TaQB99ow9tD/HB+MfTqjWyV9rKuCA==}
     engines: {node: '>=20'}
     peerDependencies:
       '@medusajs/admin-sdk': ^2.10.2
@@ -12661,7 +12661,7 @@ snapshots:
 
   '@tanstack/virtual-core@3.13.12': {}
 
-  '@techlabi/medusa-marketplace-plugin@0.36.0(je5rpqagmcfpqidx66audjx7mu)':
+  '@techlabi/medusa-marketplace-plugin@0.37.0(je5rpqagmcfpqidx66audjx7mu)':
     dependencies:
       '@medusajs/admin-sdk': 2.10.2
       '@medusajs/cli': 2.10.2(@mikro-orm/core@6.4.3)(@mikro-orm/knex@6.4.3(@mikro-orm/core@6.4.3)(pg@8.16.3))(@mikro-orm/migrations@6.4.3(@mikro-orm/core@6.4.3)(@types/node@20.19.17)(pg@8.16.3))(@mikro-orm/postgresql@6.4.3(@mikro-orm/core@6.4.3))(@types/node@20.19.17)(awilix@8.0.1)(ioredis@5.8.0)(pg@8.16.3)(vite@5.4.20(@types/node@20.19.17))
